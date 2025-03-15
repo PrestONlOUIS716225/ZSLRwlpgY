@@ -263,7 +263,6 @@ class Analysis:
 
     def get_sentiment(self, text):
         """Extracts a sentiment score [-1, 1] from text."""
-
         if not text:
             self.logs.warn("No sentiment for empty text.")
             return 0
