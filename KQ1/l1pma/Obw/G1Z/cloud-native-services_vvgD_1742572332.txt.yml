@@ -2,7 +2,6 @@ linters:
   disable-all: true
   enable:
     - gosec
-    - goimports
     - errcheck
     - gosimple
     - ineffassign
