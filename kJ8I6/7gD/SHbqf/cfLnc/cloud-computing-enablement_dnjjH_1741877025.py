@@ -199,7 +199,6 @@ class Analysis:
             except KeyError:
                 self.logs.warn("Malformed mention: %s" % mention)
                 continue
-
             self.logs.debug("Expanding mention: %s %s" % (screen_name, name))
             pattern = compile(screen_name, IGNORECASE)
             text = pattern.sub(name, text)
