@@ -13,7 +13,6 @@
 // 用户登录流程
 function login(username, password) {
   // 1. 验证用户名和密码是否为空
-  if (!username || !password) {
     return "用户名和密码不能为空";
   }
 
